@@ -1,0 +1,584 @@
+   
+  Class Foundation.Objv.MetaClass
+<body>
+ 
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+ <h1>
+  Class Foundation.Objv.MetaClass
+</h1>
+ 
+ java.lang.Object 
+   |
+   +----Foundation.Objv.MetaClass
+ 
+    public class <b>MetaClass</b>
+    extends  Object 
+    implements  ObjectClass 
+       
+<h2>
+   </h2>
+     <b>LocalSystem</b> 
+     
+       <b>PID_START</b> 
+     
+       <b>TMW_FULL_TRACE</b> 
+     
+       <b>TMW_SOLO_TRACE</b> 
+     
+       <b>projects_default</b> 
+     
+       <b>tmw_base_dir</b> 
+     
+       <b>tmw_msg_default</b> 
+     
+       <b>tmw_msg_handler</b> 
+     
+       <b>tmw_obj_default</b> 
+     
+       <b>tmw_obj_store</b> 
+     
+  <h2>
+   </h2>
+     <b>MetaClass</b> (Integer)
+     
+  <h2>
+   </h2>
+     <b>AddInheritanceMessage</b> (TMWMessage)
+     
+       <b>AddInheritanceVariable</b> (TMWStateVariable)
+     
+       <b>AddInternalHandler</b> (TMWMessageHandler)
+     
+       <b>AddInternalMessage</b> (TMWMessage)
+     
+       <b>AddInternalVariable</b> (TMWStateVariable)
+     
+       <b>AddOperationalMessage</b> (TMWMessage)
+     
+       <b>Assign</b> (String, String)
+     
+       <b>Assign</b> (String, Vector)
+     
+       <b>DeleteInstance</b> ()
+     
+       <b>FTFull</b> ()
+     
+       <b>FTFull</b> (boolean)
+     
+       <b>FTFullAdd</b> (String)
+     
+       <b>FTFullAddList</b> (Vector)
+     
+       <b>FTFullRemove</b> (String)
+     
+       <b>FTFullRemoveList</b> (Vector)
+     
+       <b>FTOff</b> ()
+     
+       <b>FTOn</b> ()
+     
+       <b>FTSolo</b> ()
+     
+       <b>FTSoloAdd</b> (String)
+     
+       <b>FTSoloAddList</b> (Vector)
+     
+       <b>FTSoloRemove</b> (String)
+     
+       <b>FTSoloRemoveList</b> (Vector)
+     
+       <b>GetChildren</b> ()
+     
+       <b>GetClassName</b> ()
+     
+       <b>GetId</b> ()
+     
+       <b>GetInheritanceMessages</b> ()
+     
+       <b>GetInheritanceVariables</b> ()
+     
+       <b>GetInstances</b> ()
+     
+       <b>GetInternalHandlers</b> ()
+     
+       <b>GetInternalMessages</b> ()
+     
+       <b>GetInternalVariables</b> ()
+     
+       <b>GetName</b> ()
+     
+       <b>GetOperationalMessages</b> ()
+     
+       <b>GetParent</b> ()
+     
+       <b>GetState</b> (String)
+     
+       <b>GetStateVector</b> (String)
+     
+       <b>InClass</b> (String)
+     
+       <b>InheritedSend</b> (String, Vector)
+     
+       <b>InitName</b> (String)
+     
+       <b>InitializedInstance</b> (Vector, Vector)
+     
+       <b>IsInstance</b> ()
+     
+       <b>IsParent</b> (Integer)
+     
+       <b>IsTrue</b> (Integer)
+     
+       <b>Load</b> (String, Integer)
+     
+       <b>Lock</b> ()
+     
+       <b>Lock</b> (String)
+     
+       <b>NewInstance</b> (Vector, Vector)
+     
+       <b>NewObject</b> ()
+     
+       <b>NewObject</b> (Vector)
+     
+       <b>NewObject</b> (Vector, Vector)
+     
+       <b>RemoveInheritanceMessage</b> (String)
+     
+       <b>RemoveInheritanceVariable</b> (String)
+     
+       <b>RemoveInternalHandler</b> (String)
+     
+       <b>RemoveInternalMessage</b> (String)
+     
+       <b>RemoveInternalVariable</b> (String)
+     
+       <b>RemoveOperationalMessage</b> (String)
+     
+       <b>ResolveParent</b> ()
+     
+       <b>Retrieve</b> (String)
+     
+       <b>Retrieve</b> (String, boolean)
+     
+       <b>Send</b> (String, Vector)
+     
+       <b>SetClassName</b> (String)
+     
+       <b>SetName</b> (String)
+     
+       <b>Store</b> ()
+     
+       <b>Unlock</b> ()
+     
+       <b>Unlock</b> (String)
+     
+       <b>run</b> ()
+     
+    
+<h2>
+   </h2>
+   
+<b>LocalSystem</b>
+ 
+  public static  Runtime  LocalSystem
+ 
+   
+<b>PID_START</b>
+ 
+  public static  Integer  PID_START
+ 
+   
+<b>projects_default</b>
+ 
+  public static  String  projects_default
+ 
+   
+<b>tmw_base_dir</b>
+ 
+  public static  String  tmw_base_dir
+ 
+   
+<b>tmw_msg_default</b>
+ 
+  public static  String  tmw_msg_default
+ 
+   
+<b>tmw_obj_default</b>
+ 
+  public static  String  tmw_obj_default
+ 
+   
+<b>tmw_msg_handler</b>
+ 
+  public static  String  tmw_msg_handler
+ 
+   
+<b>tmw_obj_store</b>
+ 
+  public static  String  tmw_obj_store
+ 
+   
+<b>TMW_FULL_TRACE</b>
+ 
+  public static  Integer  TMW_FULL_TRACE
+ 
+   
+<b>TMW_SOLO_TRACE</b>
+ 
+  public static  Integer  TMW_SOLO_TRACE
+ 
+  
+<h2>
+   </h2>
+  
+   
+<b>MetaClass</b>
+ 
+  public MetaClass( Integer  assign_pid)
+ 
+  
+<h2>
+   </h2>
+   
+ <b>IsTrue</b> 
+ 
+  public static boolean IsTrue( Integer  num)
+ 
+   
+ <b>GetId</b> 
+ 
+  public  Integer  GetId()
+ 
+   
+ <b>GetClassName</b> 
+ 
+  public  String  GetClassName()
+ 
+   
+ <b>GetParent</b> 
+ 
+  public  ObjectClass  GetParent()
+ 
+   
+ <b>IsParent</b> 
+ 
+  public boolean IsParent( Integer  Obj)
+ 
+   
+ <b>IsInstance</b> 
+ 
+  public boolean IsInstance()
+ 
+   
+ <b>InClass</b> 
+ 
+  public boolean InClass( String  ClassName)
+ 
+   
+ <b>SetName</b> 
+ 
+  public void SetName( String  ObjectName)
+ 
+   
+ <b>GetName</b> 
+ 
+  public  String  GetName()
+ 
+   
+ <b>GetState</b> 
+ 
+  public  String  GetState( String  VarName)
+ 
+   
+ <b>GetStateVector</b> 
+ 
+  public  Vector  GetStateVector( String  VarName)
+ 
+   
+ <b>GetChildren</b> 
+ 
+  public  Hashtable  GetChildren()
+ 
+   
+ <b>GetOperationalMessages</b> 
+ 
+  public  Hashtable  GetOperationalMessages()
+ 
+   
+ <b>GetInheritanceMessages</b> 
+ 
+  public  Hashtable  GetInheritanceMessages()
+ 
+   
+ <b>GetInheritanceVariables</b> 
+ 
+  public  Hashtable  GetInheritanceVariables()
+ 
+   
+ <b>GetInternalMessages</b> 
+ 
+  public  Hashtable  GetInternalMessages()
+ 
+   
+ <b>GetInternalVariables</b> 
+ 
+  public  Hashtable  GetInternalVariables()
+ 
+   
+ <b>GetInternalHandlers</b> 
+ 
+  public  Hashtable  GetInternalHandlers()
+ 
+   
+ <b>run</b> 
+ 
+  public void run()
+ 
+   
+ <b>Lock</b> 
+ 
+  public void Lock()
+ 
+   
+ <b>Unlock</b> 
+ 
+  public void Unlock()
+ 
+   
+ <b>Lock</b> 
+ 
+  public void Lock( String  VarName)
+ 
+   
+ <b>Unlock</b> 
+ 
+  public void Unlock( String  VarName)
+ 
+   
+ <b>FTSolo</b> 
+ 
+  public boolean FTSolo()
+ 
+   
+ <b>FTFull</b> 
+ 
+  public boolean FTFull()
+ 
+   
+ <b>FTOn</b> 
+ 
+  public void FTOn()
+ 
+   
+ <b>FTOff</b> 
+ 
+  public void FTOff()
+ 
+   
+ <b>FTSoloAdd</b> 
+ 
+  public void FTSoloAdd( String  Symbol)
+ 
+   
+ <b>FTSoloRemove</b> 
+ 
+  public void FTSoloRemove( String  Symbol)
+ 
+   
+ <b>FTSoloAddList</b> 
+ 
+  public void FTSoloAddList( Vector  Symbols)
+ 
+   
+ <b>FTSoloRemoveList</b> 
+ 
+  public void FTSoloRemoveList( Vector  Symbols)
+ 
+   
+ <b>FTFull</b> 
+ 
+  public void FTFull(boolean TraceAll)
+ 
+   
+ <b>FTFullAdd</b> 
+ 
+  public void FTFullAdd( String  Symbol)
+ 
+   
+ <b>FTFullRemove</b> 
+ 
+  public void FTFullRemove( String  Symbol)
+ 
+   
+ <b>FTFullAddList</b> 
+ 
+  public void FTFullAddList( Vector  Symbols)
+ 
+   
+ <b>FTFullRemoveList</b> 
+ 
+  public void FTFullRemoveList( Vector  Symbols)
+ 
+   
+ <b>Retrieve</b> 
+ 
+  public  String  Retrieve( String  VarName)
+ 
+   
+ <b>Retrieve</b> 
+ 
+  public  Vector  Retrieve( String  VarName,
+                         boolean IsList)
+ 
+   
+ <b>Assign</b> 
+ 
+  public void Assign( String  VarName,
+                      String  Val)
+ 
+   
+ <b>Assign</b> 
+ 
+  public void Assign( String  VarName,
+                      Vector  Vals)
+ 
+   
+ <b>InitName</b> 
+ 
+  public void InitName( String  Name)
+ 
+   
+ <b>SetClassName</b> 
+ 
+  public void SetClassName( String  Name)
+ 
+   
+ <b>Send</b> 
+ 
+  public  Vector  Send( String  Mesg,
+                      Vector  Arguments)
+ 
+   
+ <b>InheritedSend</b> 
+ 
+  public  Vector  InheritedSend( String  Mesg,
+                               Vector  Arguments)
+ 
+   
+ <b>AddOperationalMessage</b> 
+ 
+  public void AddOperationalMessage( TMWMessage  Mesg)
+ 
+   
+ <b>RemoveOperationalMessage</b> 
+ 
+  public void RemoveOperationalMessage( String  MesgName)
+ 
+   
+ <b>AddInheritanceMessage</b> 
+ 
+  public void AddInheritanceMessage( TMWMessage  Mesg)
+ 
+   
+ <b>RemoveInheritanceMessage</b> 
+ 
+  public void RemoveInheritanceMessage( String  MesgName)
+ 
+   
+ <b>AddInheritanceVariable</b> 
+ 
+  public void AddInheritanceVariable( TMWStateVariable  Var)
+ 
+   
+ <b>RemoveInheritanceVariable</b> 
+ 
+  public void RemoveInheritanceVariable( String  VarName)
+ 
+   
+ <b>AddInternalMessage</b> 
+ 
+  public void AddInternalMessage( TMWMessage  Mesg)
+ 
+   
+ <b>RemoveInternalMessage</b> 
+ 
+  public void RemoveInternalMessage( String  MesgName)
+ 
+   
+ <b>AddInternalVariable</b> 
+ 
+  public void AddInternalVariable( TMWStateVariable  Var)
+ 
+   
+ <b>RemoveInternalVariable</b> 
+ 
+  public void RemoveInternalVariable( String  VarName)
+ 
+   
+ <b>AddInternalHandler</b> 
+ 
+  public void AddInternalHandler( TMWMessageHandler  Handler)
+ 
+   
+ <b>RemoveInternalHandler</b> 
+ 
+  public void RemoveInternalHandler( String  HandlerName)
+ 
+   
+ <b>NewInstance</b> 
+ 
+  public  ObjectClass  NewInstance( Vector  Paramters,
+                                  Vector  Values)
+ 
+   
+ <b>InitializedInstance</b> 
+ 
+  public  ObjectClass  InitializedInstance( Vector  Parameters,
+                                          Vector  Values)
+ 
+   
+ <b>GetInstances</b> 
+ 
+  public  Hashtable  GetInstances()
+ 
+   
+ <b>DeleteInstance</b> 
+ 
+  public void DeleteInstance()
+ 
+   
+ <b>NewObject</b> 
+ 
+  public  ObjectClass  NewObject()
+ 
+   
+ <b>NewObject</b> 
+ 
+  public  ObjectClass  NewObject( Vector  Vars)
+ 
+   
+ <b>NewObject</b> 
+ 
+  public  ObjectClass  NewObject( Vector  Vars,
+                                Vector  Vals)
+ 
+   
+ <b>ResolveParent</b> 
+ 
+  public void ResolveParent()
+ 
+   
+ <b>Store</b> 
+ 
+  public boolean Store()
+ 
+   
+ <b>Load</b> 
+ 
+  public boolean Load( String  Name,
+                       Integer  Id)
+ 
+  
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+</body> 

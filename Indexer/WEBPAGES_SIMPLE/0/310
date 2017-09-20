@@ -1,0 +1,263 @@
+ 
+GmailStorageServer
+<body> 
+ 
+
+
+
+
+   
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ <h2>
+ 
+org.itr_rescue.dataGuard.StorageServer.gVault 
+ 
+Class GmailStorageServer</h2>
+ 
+java.lang.Object
+    org.itr_rescue.dataGuard.StorageServer.AbstractStorageServer 
+       <b>org.itr_rescue.dataGuard.StorageServer.gVault.GmailStorageServer</b>
+ 
+  <b>All Implemented Interfaces:</b>    IRemoteIndexing ,  IStorageServer  
+     public class <b>GmailStorageServer</b>  extends  AbstractStorageServer  implements  IRemoteIndexing      
+   
+
+
+
+  
+     
+<b>Constructor Summary</b>  
+    <b> GmailStorageServer </b>(java.lang.String username,
+                   java.lang.String password) 
+
+ 
+            
+  
+ 
+
+
+  
+    
+<b>Method Summary</b>  
+    
+  int   
+  <b> connect </b>(java.lang.String username,
+        java.lang.String password) 
+
+ 
+            
+    
+  int   
+  <b> delete </b>( AbstractObjectData  o) 
+
+ 
+            
+    
+  void   
+  <b> disconnect </b>() 
+
+ 
+            
+    
+  int   
+  <b> fetch </b>( AbstractObjectData  o,
+      java.lang.String path) 
+
+ 
+            
+    
+  java.lang.String   
+  <b> getServiceDescription </b>() 
+
+ 
+            
+    
+  java.lang.String   
+  <b> getServiceType </b>() 
+
+ 
+            
+    
+  void   
+  <b> loadService </b>() 
+
+ 
+            
+    
+  java.io.File[]   
+  <b> queryIndex </b>(java.lang.String[] searchString,
+           java.lang.String path) 
+
+ 
+            
+    
+  int   
+  <b> store </b>( AbstractObjectData  o,
+      java.lang.String id) 
+
+ 
+            
+    
+  void   
+  <b> storeIndex </b>( IIndex  index) 
+
+ 
+            
+  
+   
+   <b>Methods inherited from class org.itr_rescue.dataGuard.StorageServer. AbstractStorageServer </b> 
+     getPassword ,  getService_url ,  getServiceKey ,  getUsername ,  setPassword ,  setService_url ,  setUsername   
+  
+   
+   <b>Methods inherited from class java.lang.Object</b> 
+    clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait  
+  
+ 
+ 
+
+
+
+  
+     
+<b>Constructor Detail</b>  
+    <h3>
+GmailStorageServer</h3>
+ 
+public <b>GmailStorageServer</b>(java.lang.String username,
+                          java.lang.String password) 
+    
+    
+<b>Method Detail</b>  
+    <h3>
+loadService</h3>
+ 
+public void <b>loadService</b>() 
+    <b>Overrides:</b>    loadService   in class   AbstractStorageServer     
+    
+    <h3>
+connect</h3>
+ 
+public int <b>connect</b>(java.lang.String username,
+                   java.lang.String password) 
+    <b>Specified by:</b>    connect   in interface   IStorageServer    <b>Specified by:</b>    connect   in class   AbstractStorageServer     
+    
+    <h3>
+disconnect</h3>
+ 
+public void <b>disconnect</b>() 
+    <b>Specified by:</b>    disconnect   in interface   IStorageServer    <b>Specified by:</b>    disconnect   in class   AbstractStorageServer     
+    
+    <h3>
+fetch</h3>
+ 
+public int <b>fetch</b>( AbstractObjectData  o,
+                 java.lang.String path) 
+    <b>Specified by:</b>    fetch   in interface   IStorageServer    <b>Specified by:</b>    fetch   in class   AbstractStorageServer     
+    
+    <h3>
+getServiceDescription</h3>
+ 
+public java.lang.String <b>getServiceDescription</b>() 
+    <b>Specified by:</b>    getServiceDescription   in class   AbstractStorageServer     
+    
+    <h3>
+getServiceType</h3>
+ 
+public java.lang.String <b>getServiceType</b>() 
+    <b>Specified by:</b>    getServiceType   in class   AbstractStorageServer     
+    
+    <h3>
+store</h3>
+ 
+public int <b>store</b>( AbstractObjectData  o,
+                 java.lang.String id) 
+    <b>Specified by:</b>    store   in interface   IStorageServer    <b>Specified by:</b>    store   in class   AbstractStorageServer     
+    
+    <h3>
+delete</h3>
+ 
+public int <b>delete</b>( AbstractObjectData  o) 
+    <b>Specified by:</b>    delete   in interface   IStorageServer    <b>Specified by:</b>    delete   in class   AbstractStorageServer     
+    
+    <h3>
+storeIndex</h3>
+ 
+public void <b>storeIndex</b>( IIndex  index) 
+    <b>Specified by:</b>    storeIndex   in interface   IRemoteIndexing     
+    
+    <h3>
+queryIndex</h3>
+ 
+public java.io.File[] <b>queryIndex</b>(java.lang.String[] searchString,
+                                 java.lang.String path) 
+    <b>Specified by:</b>    queryIndex   in interface   IRemoteIndexing     
+    
+    
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ </body> 

@@ -1,0 +1,48 @@
+ 3.1.29 IsConnected<body>
+ 
+       
+     
+        
+ OEChem - API Manual
+ 
+Version 1.3.1      
+     
+   
+   
+   Previous:</b>  3.1.28 IsCarbon 
+ Up:</b>  3.1 OEAtomBase 
+ Next:</b>  3.1.30 IsHalogen 
+   
+
+
+<h2> 
+3.1.29 IsConnected 
+</h2>
+   
+virtual bool IsConnected(const OEAtomBase *nbor) const
+    
+Determine whether the atom is bonded to the given atom ``nbor''.  To
+obtain the actual bond linking the atom to its neighbor use the
+ OEAtomBase::GetBond  method.  This method is equivalent to
+ OEAtomBase::GetBond() != (OEBondBase*)0 .
+
+  
+
+  
+          
+     
+        
+ OEChem - API Manual
+ 
+Version 1.3.1      
+     
+   
+   
+   Previous:</b>  3.1.28 IsCarbon 
+ Up:</b>  3.1 OEAtomBase 
+ Next:</b>  3.1.30 IsHalogen 
+  Documentation released on July 30, 2004. 
+ 
+
+
+</body> 

@@ -1,0 +1,74 @@
+ Arcadia User Interface Papers<body>
+<h1> 
+User Interface Papers</h1>
+
+ <h2> C2 papers: </h2>
+ 
+"<b>A Component- and Message-Based Architectural Style for GUI
+Software</b>" , by Richard N. Taylor, Nenad Medvidovic, Kenneth M. Anderson,
+E. James Whitehead Jr., Jason E. Robbins, Kari A. Nies, Peyman Oreizy, 
+and Deborah L. Dubrow,  IEEE Transactions on Software Engineering , 
+vol. 22, no. 6, pages 390-406, June 1996.  
+  Abstract  
+  (cross reference   
+Software Architecture )
+
+ 
+
+  <h2> Chiron papers: </h2>
+
+  
+"<b>Chiron-1: A Software Architecture for User Interface Development,
+Maintenance, and Run-time Support</b>" ,  
+by Richard N. Taylor, Kari A. Nies, Gregory Alan Bolcer, Craig A. MacFarlane,
+Gregory F. Johnson, and Kenneth M. Anderson in
+  ACM Transactions on Computer-Human Interaction.  
+vol.2, no. 2, pages 105-144, June 1995.
+  Abstract  
+
+ 
+
+  
+"<b>Supporting Separations of Concerns and Concurrency in the Chiron-1
+User Interface System</b>" ,  
+by Richard N. Taylor and Gregory F. Johnson in
+  Proceedings of the Conference on Human Factors in Computing Sytems,  
+pages 367-374, Amsterdam, April 1993. Association for Computing Machinery.
+  Abstract  
+
+  
+
+ 
+"<b>Chiron-1 User Manual, v1.4</b>" ,
+by Kari A. Nies, Craig MacFarlane, Mary Cameron, and Gregory Bolcer in
+  Arcadia Document UCI-93-07. 
+  Abstract  
+
+  
+
+ 
+"<b>Chiron 1.4 Client Design</b>" ,
+by Kari A. Nies in
+  Arcadia Document UCI-93-02. 
+  Abstract  
+
+  
+
+  <h2> UIDA papers: </h2>
+
+  
+"<b>User Interface Design Assistance for Large-Scale Software Development</b>" ,  
+by Gregory Alan Bolcer in
+  Proceedings of the Knowledge Based Software Engineering Conference,  
+pages 142-149, Monterey, CA, September 1994. 
+  Abstract  
+
+
+ 
+
+   
+ The Arcadia Project
+&lt;arcadia-www@ics.uci.edu&gt;  
+Last modified: Tue May 23 13:40:13 1995
+ 
+</body> 

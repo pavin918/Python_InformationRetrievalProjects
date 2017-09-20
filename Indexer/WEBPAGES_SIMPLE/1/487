@@ -1,0 +1,18 @@
+ Method Vs. Post Cont.<body>
+
+ <h1>Method Vs. Post Cont.</h1> 
+     <h2>Methods w/headers
+</h2>
+  Not backwards compatible - Max Header Size.
+  Requires method specific headers.
+  Proxy problems?
+      <h2>Suggestion
+</h2>
+  1.0 Clients can use Post w/mime types
+  1.1 Clients use new methods w/mime types       
+ 
+     Previous slide   
+     Next slide   
+     Back to first slide   
+     View graphic version   
+  </body> 

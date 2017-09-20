@@ -1,0 +1,175 @@
+ Course Outline 
+
+ 
+
+       
+
+  Course
+Outline    
+
+       
+
+  A hands on TCP/IP lab course
+that emphasizes the main networking concepts 
+taught in ICS 153 or ICS 243A. The lab is structured around exercises that
+highlight topics such as addressing, subnetting, bridging, ARP, routing (RIP,
+OSPF), TCP, ICMP, etc. The course consists of 8 weeks of labs. Every week a
+series of exercises are required to be completed. Lab reports are used to
+evaluate the students’ understanding of the material and document the
+exercises. Students are required to review ICS 153 or ICS 243A material for
+each lab. An accompanying text will used and for each exercise the relevant
+chapters will be given.     
+
+       
+
+  <b> Prerequisites </b>  : ICS 153 or ICS 243A (a strict
+requirement!)    
+
+       
+
+  <b> Text </b>  :  A Guide to
+the TCP/IP Protocol Suite by Floyd Wilder, Artech House, 2nd edition, ISBN:
+0-89006-976-X       
+
+  <b> Lab Notes and Class Notes </b>  : Available on the web      
+
+       
+
+  <b> Class Time </b>  : Monday:    12noon – 2:50pm    
+
+  <b> Class Room </b>  : CS 432<b>    </b>  
+
+       
+
+  <b> Lab Time </b>  : Open lab. I will be available in the lab every week on Wednesday 10am – 11am. TA will be available in the lab every week on  Tuesday and Thursday 12noon - 4pm.    
+
+  <b> Lab Room </b>  : CS 364    
+
+       
+
+  <b> TA </b>  : Hoan Tran - hoant@ics.uci.edu    
+
+       
+
+  <b> My
+coordinates </b>  : 458D,
+elzarki@uci.edu    
+
+  <b> My office
+hours </b>  : Monday
+11am-12noon    
+
+       
+
+  <b> Course
+Requirements </b>  : Weekly
+lab reports (includes pre-lab questionnaire) to be handed in at the beginning
+of class (60% of grade). Midterm and Final Quizzes (15% and 25% respectively of
+grade).  
+
+ <b> </b> 
+
+ Course Schedule 
+
+     
+
+  ·         <b>
+ Lab Manual </b>
+ 
+
+  ·         <b> Introduction  -  Lab_1 (Week 1)   </b> : Linux/Unix Primer  
+
+  ·            Getting Familiar with the Equipment 
+
+  ·            Introduction to Unix/Linux 
+
+  ·         Some
+basic commands for collecting data 
+
+  ·         <b> Single Segment Networks   -  Lab_2 (Week 2)  </b> : Chapters   1, 2.1-1.5, 3 up to 3.3.3,
+5.1, 5.3, 6.1-3  
+
+  ·         IP Addressing and Network Prefixes 
+
+  ·         ARP 
+
+  ·         Configuring
+Interfaces 
+
+  ·         <b> Multiple Segment Networks and Static Routing  -  Lab_3 (Week 3 and 4) </b> : Chapters 3.4  
+
+  ·         Using
+a PC as a Router 
+
+  ·         Configuring
+a Cisco router 
+
+  ·         Static
+Routing Experiments 
+
+  ·         <b> Dynamic Routing   -  Lab_4 (Week 5)  </b> : Chapters 5.1, 5.7, 5.8,   
+
+  ·         RIP 
+
+  ·         OSPF 
+
+  ·         <b>  Midterm   (Week 6) </b>   
+
+  ·         <b>  Link Layer Switches   -   Lab_5 (Week 7 and 8)   </b> : Chapters 2.1.7  
+
+  ·         Using
+a PC as a bridge 
+
+  ·         Configuring
+a Cisco router as a bridge 
+
+  ·         Simple
+Bridge Experiment 
+
+  ·         Spanning
+Tree algorithm 
+
+  ·         Mixed Bridge Router Experiment
+ 
+
+  ·         <b> Transport
+Layer Protocols   -  Lab_6 (Week 9)  </b> : Chapters 4, 6.2,
+6.3  
+
+  ·         The
+ttcp program 
+
+  ·         UDP 
+
+  ·         FTP
+and TFTP 
+
+  ·         TCP 
+
+  ·         Connection
+Establishment and Termination 
+
+  ·         Interactive
+Data Flow 
+
+  ·         Flow
+Control Algorithm 
+
+  ·         Timeout
+and Retransmission 
+
+  ·         <b>Review
+(Week 10)  </b> 
+
+  ·         <b>  Final   (Week 11) </b>   
+
+ <b> Appendix A  </b>
+  
+ <b>Lecture Notes: Handout Version</b>
+ <b> Lecture 1 handout  </b>
+ <b> Lecture 2 handout  </b>
+ <b> Lecture 3 handout   </b>
+ <b> Lecture 4 handout   </b>
+ <b> Lecture 5 handout   </b>
+ <b> Lecture 6 handout   </b>
+</body> 

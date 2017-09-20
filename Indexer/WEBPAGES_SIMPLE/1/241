@@ -1,0 +1,24 @@
+ Community-Wide Markup Languages<body>
+
+ <h1>Community-Wide Markup Languages</h1> 
+     <h2>Community size is inversely proportional to shared context
+</h2>
+  Millions agree that &lt;B&gt; means bold, but �2/6/98� reflects local culture
+  XML decentralizes control of specialized markup languages,making it cost-effective to capture community ontologies
+      <h2>HTML is not unilaterally extensible --	new tags potentially have ambiguous syntax, style, and semantics
+</h2>
+    <h2>XML is a strict (but simplified) subset of SGML, offering:
+</h2>
+  Extensibility -- can define new elements, containers, attribute names
+  Structure -- a DTD can constrain the information model of a document
+  Validation -- every document can be validated; also, well-formedness can establish conformance to the structure mandated by the DTD
+      <h2>XML includes extensible linking and style formatting also
+</h2>
+    <h2>�Node content must be left free to evolve.�  [Tim Berners-Lee, 1991, �About Document Formats�]</h2>
+     
+ 
+     Previous slide   
+     Next slide   
+     Back to first slide   
+     View graphic version   
+  </body> 

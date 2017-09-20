@@ -1,0 +1,75 @@
+List of subdomains and how many times they were visited:
+www.ics.uci.edu: 126696
+ngs.ics.uci.edu: 5688
+evoke.ics.uci.edu: 3663
+fano.ics.uci.edu: 3137
+seal.ics.uci.edu: 2967
+emj.ics.uci.edu: 2630
+hombao.ics.uci.edu: 2392
+vision.ics.uci.edu: 2278
+mondego.ics.uci.edu: 2163
+sli.ics.uci.edu: 2042
+cert.ics.uci.edu: 1361
+sdcl.ics.uci.edu: 1361
+sherlock.ics.uci.edu: 1155
+radicle.ics.uci.edu: 1153
+flamingo.ics.uci.edu: 920
+vcp.ics.uci.edu: 821
+cml.ics.uci.edu: 734
+ironwood.ics.uci.edu: 704
+elms.ics.uci.edu: 698
+ftp.ics.uci.edu: 634
+jgarcia.ics.uci.edu: 568
+computableplant.ics.uci.edu: 498
+www.facebook.com: 466
+mhcid.ics.uci.edu: 337
+isg.ics.uci.edu: 151
+honors.ics.uci.edu: 13
+hobbes.ics.uci.edu: 9
+grape.ics.uci.edu: 8
+pregelix.ics.uci.edu: 8
+esl.ics.uci.edu: 6
+dynamo.ics.uci.edu: 5
+xtune.ics.uci.edu: 4
+mlearn.ics.uci.edu: 4
+chime.ics.uci.edu: 3
+sconce.ics.uci.edu: 3
+graphmod.ics.uci.edu: 3
+ipubmed.ics.uci.edu: 3
+asterix.ics.uci.edu: 3
+isr.uci.edu: 2
+graphics.ics.uci.edu: 2
+cloudberry.ics.uci.edu: 2
+fr.ics.uci.edu: 2
+sprout.ics.uci.edu: 2
+mapgrid.ics.uci.edu: 2
+chenli.ics.uci.edu: 2
+jujube.ics.uci.edu: 2
+archive.ics.uci.edu: 1
+duttgroup.ics.uci.edu: 1
+students.ics.uci.edu: 1
+www.igb.uci.edu: 1
+www.antconcepts.com: 1
+garymolson.com: 1
+i-sensorium.ics.uci.edu: 1
+www.michaelfranz.com: 1
+ppopp2013.ics.uci.edu: 1
+testlab.ics.uci.edu: 1
+www.stat.uci.edu: 1
+www.cs.uci.edu: 1
+www.informatics.uci.edu: 1
+
+Number of invalids links: 1598740
+
+Set of pages with the most outgoing links:
+http://www.ics.uci.edu/~agelfand/largeFam3.html has 1089 links
+
+Average download time per URL: 28.8364842873 seconds.
+
+Total download time: 51386.615
+
+
+NOTE: we had two main runs of the crawler, both almost took the same amount of time and produced as much as each other.
+ One of them crashed because of Windows10 forced a restart during sleeping hours. It used user agent string 30658761_50051833_68414541. 
+The second one got disconnected to amazon.ics.uci.edu at 1:30 am last night but it produced the stats above, using the 68414541_30658761_50051833 user agent string. 
+The combination of the two successful_urls.txt of both runs will have the stats shown in combinedAnalytics.txt

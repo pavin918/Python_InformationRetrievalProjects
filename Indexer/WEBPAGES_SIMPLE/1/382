@@ -1,0 +1,120 @@
+ 
+Uses of Class formulaVisited.Disjunction (formula package)
+<body> 
+ 
+
+
+
+
+
+
+
+  
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+  
+<h2>
+<b>Uses of Class formulaVisited.Disjunction</b></h2>
+ 
+
+    
+Packages that use  Disjunction   
+    <b>formulaVisited</b>  
+ 
+Propositional and first-order logic with visitors, singletons, 
+and other patterns used.  
+  
+ 
+ 
+  
+     
+Uses of  Disjunction  in  formulaVisited   
+  
+ 
+ 
+
+    Methods in  formulaVisited  with parameters of type  Disjunction  
+    
+  java.lang.Object   
+  <b>VisitorToString.</b><b> visit </b>( Disjunction  _f) 
+
+ 
+            
+    
+  java.lang.Object   
+  <b>VisitorEvaluate.</b><b> visit </b>( Disjunction  _f) 
+
+ 
+          Calculates the result for a Disjunction.
+    A disjunction is false if both its subformulas are false,
+    true if either of its subformulas is true,
+    and unknown otherwise. 
+    
+  java.lang.Object   
+  <b>Visitor.</b><b> visit </b>( Disjunction  _f) 
+
+ 
+          Calculates the result for a Disjunction. 
+  
+ 
+ 
+    
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+ </body> 

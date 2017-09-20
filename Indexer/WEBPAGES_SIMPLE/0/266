@@ -1,0 +1,177 @@
+ thunderbird setup @ the bren school of information and computer sciences<body>
+
+ 
+ 
+
+      
+
+          
+
+ 
+
+
+        
+
+    
+ 
+
+
+  
+
+     » Account 
+
+       » New User Guide  
+      » Activation  
+      » Password Change/Reset  
+      » Quota  
+      » Renewal  
+      » Mapping Network Drive 
+         » Windows  
+        » Mac  
+        
+      » FAQs       
+      
+
+ 
+
+     » E-mail 
+
+       » ICS Google Mail  
+      » Specify Delivery Point  
+      » Webmail  
+      » Thunderbird for ICS Gmail  
+      » Thunderbird  
+      » Mailing Lists  
+      » Forwarding/Vacation/Spam Settings  
+      » Email Servers Information  
+      » Checking Group Account Email  
+      
+
+ 
+
+     » Network 
+
+       » UCInet Mobile  
+      » VPN  
+      » ICS Netreg  
+      » UCI Weather Report  
+      » Open Port Request  
+      
+
+ 
+
+     » Linux 
+    
+       » ICS hosts  
+      » Changing shell  
+      » Using modules  
+      » Security  
+      » Group account access (gsu)  
+      » Sun Grid Engine  
+          
+
+ 
+
+     » Other Services 
+
+       » Labs  
+      » Printing  
+      » Activate MS Office  
+      » Sophos 
+         » Windows  
+        » Mac  
+            
+      » Microsoft Imagine  
+      » File Restore 
+         » Self-restore snapshot  
+        » Restore request  
+        
+        » Quarterly announcements  
+      
+
+  
+
+     » Web 
+    
+       » Personal Webpage  
+      » General Information  
+      
+
+ 
+
+     » Policies 
+    
+       » Ethics  
+      » Ethics Summary  
+      
+
+ 
+
+     » Contact 
+    
+       » Helpdesk  
+      » Support Staff  
+      » Who To Contact  
+      
+
+       
+ Thunderbird Setup 
+
+ 
+ 
+
+  This tutorial is based on Thunderbird 24.1.0. If you're using a different version, the naming convention may differ, but the settings will remain the same. 
+ 
+  Start up Thunderbird for the first time (or go to Tools, Account Settings, Account Actions, Add Mail Account) 
+ In the <b>Mail Account Setup</b> window, enter your name and email address. Enter your password here if you want to have it remembered. Click <strong>Continue</strong>. 
+ Thunderbird will now attempt to look for the IMAP information. Please make sure that you have <strong>IMAP </strong>selected. 
+ Click on <b>Manual config </b>in the lower left corner to make sure that the information is as follow:
+  Incoming
+  IMAP 
+ Server hostname: <strong>imap.ics.uci.edu</strong> 
+ Port: <strong>993</strong> 
+ SSL: <strong>SSL/TLS</strong> 
+ Authentication: <strong>Normal password</strong> 
+  
+ Outgoing
+   UCI SMTP . If you're connecting from a laptop or from off campus, please use the UCI SMTP server settings or your ISP server settings.    For UCI SMTP, see settings from step number 7 in the link provided. 
+  
+ ICS SMTP. If your machine is in on the UCI-ICS domain, please use the following settings. 
+  
+ 
+ Server hostname: <strong>smtp.ics.uci.edu</strong> 
+ Port: <strong>587</strong> 
+ SSL: <strong>STARTTLS</strong> 
+ Authentication: <strong>Normal password</strong> 
+ Username:<strong> &lt;your username&gt;</strong>
+   
+  
+  
+    
+ Click <strong>Re-test</strong> and then <strong>Done</strong> 
+ If you  did not  choose to have your password saved, you will now be prompted to enter your email password. 
+ Go to <strong>Tools </strong>and select <strong>Account Settings</strong> 
+ Under <strong>Server Settings</strong>, click on the <b>Advanced</b> button
+  Make sure that <b>IMAP server directory</b> is empty 
+ Uncheck <b>Show only subscribed folders</b> 
+ Uncheck <b>Allow server to override these namespaces</b> 
+    
+ This last step is optional. If you have many email messages, you may want to disable Message Synchronizing so that your email loads more quickly.
+  While still on <strong>Account Settings</strong> window, select <strong>Synchronization &amp; Storage</strong> 
+ Uncheck <strong>Keep messages for this account on this computer</strong> 
+  
+  
+ 
+ 
+  
+  Copyright Inquiries  |
+    UCI Directory  |
+    Intranet  |
+   
+   
+ 
+   icswebmaster  |
+Updated: 
+October 31 2013 
+ 
+</body> 

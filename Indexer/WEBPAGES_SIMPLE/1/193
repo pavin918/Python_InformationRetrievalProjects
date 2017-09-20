@@ -1,0 +1,59 @@
+ Rotation<body>
+
+
+
+
+ 
+ <strong>Navigation:</strong>
+ Up , 
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+  
+
+
+  
+
+  
+
+      
+     
+     
+     
+   
+
+   
+         
+<h2> CGAL::Rotation </h2>
+
+
+ #include &lt; CGAL/aff_transformation_tags.h &gt; 
+ 
+
+ <h3>Definition</h3>Tag class for affine transformations.
+ 
+
+ <h3>See Also</h3>  CGAL::Aff_transformation_2 &lt; Kernel &gt;    CGAL::Aff_transformation_3 &lt; Kernel &gt;    CGAL::Identity_transformation     CGAL::Rotation     CGAL::Scaling     CGAL::Translation    
+
+   <b>Next:</b>   Scaling   
+
+
+    
+ 
+ <strong>Navigation:</strong>
+
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+
+
+
+  
+
+The  CGAL Project  .
+
+Tue, December 21, 2004 .
+  
+  </body> 

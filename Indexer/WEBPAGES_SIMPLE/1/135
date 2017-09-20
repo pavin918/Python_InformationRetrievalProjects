@@ -1,0 +1,27 @@
+ Principle: Be Specific<body>
+
+ <h1>Principle: Be Specific</h1> 
+       <h2>In real life, holistic judgments are vague:
+</h2>
+
+      �I trust my spouse� � for what? 
+  �I trust my Bank� � that�s not how they see it
+        <h2>General-purpose Web tools frustrate:
+</h2>
+
+      Web servers deal in bags of bits between machines
+    Not easy to distinguish a medical record file
+  Not easy to identify the actual user
+    Web client interfaces don�t understand either
+    �Do you want to submit this data unencrypted� - swat!
+    Underlying OS security can thwart limits
+    Sandboxing mobile code, redistribution limits         
+ 
+     Previous slide   
+     Next slide   
+     Back to first slide   
+     View graphic version   
+   <strong> Notes: </strong> 
+       
+
+Be specific about the level of trust, too. </body> 

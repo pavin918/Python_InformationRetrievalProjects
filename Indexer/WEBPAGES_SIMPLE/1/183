@@ -1,0 +1,68 @@
+ Weighted_alpha_shape_euclidean_traits_3&lt;K&gt;<body>
+
+
+
+
+ 
+ <strong>Navigation:</strong>
+ Up , 
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+  
+
+
+  
+
+  
+
+      
+     
+     
+     
+   
+
+   
+         
+<h2> CGAL::Weighted_alpha_shape_euclidean_traits_3&lt;K&gt; </h2>
+ 
+
+ <h3>Definition</h3>
+ 
+
+The class   Weighted_alpha_shape_euclidean_traits_3 &lt;K&gt;  is the default  model for the concept
+  WeightedAlphaShapeTraits_3   of traits class for
+the underlying triangulation of a weigthed alpha shapes.
+ K  must be a kernel.
+  
+
+ #include &lt; CGAL/Weighted_alpha_shape_euclidean_traits_3.h &gt; 
+  
+
+ <h3>Refines</h3>  Regular_triangulation_euclidean_traits_3 &lt;K, typename K::FT&gt;  
+ 
+
+ <h3>Is Model for the Concept</h3>  WeightedAlphaShapeTraits_3  
+ 
+
+
+
+    
+  
+ <strong>Navigation:</strong>
+
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+
+
+
+  
+
+The  CGAL Project  .
+
+Tue, December 21, 2004 .
+  
+ </body> 

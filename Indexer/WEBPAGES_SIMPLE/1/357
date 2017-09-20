@@ -1,0 +1,100 @@
+ 
+Uses of Interface org.itr_rescue.dataGuard.localFileSystem.view.detail.PanelChangeRequestListener
+<body> 
+ 
+
+
+
+
+   
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+  
+<h2>
+<b>Uses of Interface org.itr_rescue.dataGuard.localFileSystem.view.detail.PanelChangeRequestListener</b></h2>
+ 
+
+    
+Packages that use  PanelChangeRequestListener   
+    <b>org.itr_rescue.dataGuard.localFileSystem.view.detail</b>  
+    
+  
+ 
+ 
+  
+     
+Uses of  PanelChangeRequestListener  in  org.itr_rescue.dataGuard.localFileSystem.view.detail   
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.localFileSystem.view.detail  with parameters of type  PanelChangeRequestListener  
+    
+  void   
+  <b>DetailsTable.</b><b> setPanelChangeRequestListener </b>( PanelChangeRequestListener  l) 
+
+ 
+            
+  
+ 
+ 
+    
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+ </body> 

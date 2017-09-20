@@ -1,0 +1,101 @@
+   
+  Class Foundation.Objv.ObjectStore
+<body>
+ 
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+ <h1>
+  Class Foundation.Objv.ObjectStore
+</h1>
+ 
+ java.lang.Object 
+   |
+   +----Foundation.Objv.ObjectStore
+ 
+    public class <b>ObjectStore</b>
+    extends  Object 
+   
+This is the object for caching Teamware Foundation level objects
+from disk. Objects are stored incore, until changes are made to
+that object, then they are written out to the local directory
+specified by the environment variable TMW_PERSIST externally and
+ObjectClass.tmw_obj_store internally.
+   <b>See Also:</b>
+        ObjectClass ,  MetaClass 
+     
+<h2>
+   </h2>
+     <b>InternalTable</b> 
+     
+  <h2>
+   </h2>
+     <b>ObjectStore</b> ()
+     
+  <h2>
+   </h2>
+     <b>Delete</b> (Integer)
+     Delete an object from the local cache.
+       <b>Insert</b> (Integer, Object)
+     Insert an object into the local cache.
+       <b>Lookup</b> (Integer)
+     Find an object by it's unique internal id.
+       <b>Lookup</b> (String)
+     Find an object by it's name.
+       <b>Peek</b> (Integer)
+     Check to see if an object is locally stored.
+    
+<h2>
+   </h2>
+   
+<b>InternalTable</b>
+ 
+  public static  Hashtable  InternalTable
+ 
+  
+<h2>
+   </h2>
+  
+   
+<b>ObjectStore</b>
+ 
+  public ObjectStore()
+ 
+  
+<h2>
+   </h2>
+   
+ <b>Lookup</b> 
+ 
+  public static  ObjectClass  Lookup( Integer  pid)
+ 
+   Find an object by it's unique internal id.
+     
+ <b>Lookup</b> 
+ 
+  public static  ObjectClass  Lookup( String  name)
+ 
+   Find an object by it's name.  This operation is
+slightly more expensive as it iterates thorugh
+all available id's matching on name.
+     
+ <b>Peek</b> 
+ 
+  public static boolean Peek( Integer  pid)
+ 
+   Check to see if an object is locally stored.  This is used
+for caching and searching between distributed Foundation levels.
+     
+ <b>Insert</b> 
+ 
+  public static void Insert( Integer  pid,
+                             Object  obj)
+ 
+   Insert an object into the local cache.
+     
+ <b>Delete</b> 
+ 
+  public static void Delete( Integer  pid)
+ 
+   Delete an object from the local cache.
+    
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+</body> 

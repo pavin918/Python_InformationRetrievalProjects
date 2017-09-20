@@ -1,0 +1,244 @@
+ 
+Uses of Class org.itr_rescue.dataGuard.localFileSystem.JFMView
+<body> 
+ 
+
+
+
+
+   
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+  
+<h2>
+<b>Uses of Class org.itr_rescue.dataGuard.localFileSystem.JFMView</b></h2>
+ 
+
+    
+Packages that use  JFMView   
+    <b>org.itr_rescue.dataGuard.DataObjectModel</b>  
+    
+    <b>org.itr_rescue.dataGuard.localFileSystem</b>  
+    
+    <b>org.itr_rescue.dataGuard.localFileSystem.view.detail</b>  
+    
+    <b>org.itr_rescue.dataGuard.localFileSystem.view.list</b>  
+    
+    <b>org.itr_rescue.dataGuard.ui</b>  
+    
+    <b>org.itr_rescue.dataGuard.Utilities</b>  
+    
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.DataObjectModel   
+  
+ 
+ 
+
+    Fields in  org.itr_rescue.dataGuard.DataObjectModel  declared as  JFMView  
+    
+ protected   JFMView    
+  <b>AbstractFileAction.</b><b> localView </b> 
+
+ 
+            
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.DataObjectModel  with parameters of type  JFMView  
+    
+  void   
+  <b>QuitAction.</b><b> setLocalView </b>( JFMView  local) 
+
+ 
+            
+    
+  void   
+  <b>IAction.</b><b> setLocalView </b>( JFMView  local) 
+
+ 
+            
+    
+  void   
+  <b>AbstractFileAction.</b><b> setLocalView </b>( JFMView  local) 
+
+ 
+            
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.localFileSystem   
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.localFileSystem  that return  JFMView  
+    
+ static  JFMView    
+  <b>JFMView.</b><b> createView </b>( JFMViewRepresentation  representation,
+           java.lang.String filesystem) 
+
+ 
+          This method creates the view specified by  name . 
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.localFileSystem.view.detail   
+  
+ 
+ 
+
+    Subclasses of  JFMView  in  org.itr_rescue.dataGuard.localFileSystem.view.detail  
+    
+  class   
+  <b> DetailView </b> 
+
+ 
+          This panel implements a detailed view of the files 
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.localFileSystem.view.list   
+  
+ 
+ 
+
+    Subclasses of  JFMView  in  org.itr_rescue.dataGuard.localFileSystem.view.list  
+    
+  class   
+  <b> ListView </b> 
+
+ 
+          Title:        Java File Manager
+ Description:
+ Copyright:    Copyright (c) 2001
+ Company:      Home 
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.ui   
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.ui  that return  JFMView  
+    
+ static  JFMView    
+  <b>UIComponent.</b><b> getLeftPanel </b>() 
+
+ 
+            
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.ui  with parameters of type  JFMView  
+    
+ static void   
+  <b>UIComponent.</b><b> setLeftPanel </b>( JFMView  view) 
+
+ 
+            
+  
+ 
+ 
+  
+     
+Uses of  JFMView  in  org.itr_rescue.dataGuard.Utilities   
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.Utilities  that return  JFMView  
+    
+ static  JFMView    
+  <b>Options.</b><b> getFilesPanel </b>() 
+
+ 
+            
+  
+ 
+ 
+
+    Methods in  org.itr_rescue.dataGuard.Utilities  with parameters of type  JFMView  
+    
+ static void   
+  <b>Options.</b><b> setFilesPanel </b>( JFMView  view) 
+
+ 
+            
+  
+ 
+ 
+    
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+         <b>Class</b>    
+      <b>Use</b>   
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+ PREV 
+ NEXT  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+
+
+ </body> 

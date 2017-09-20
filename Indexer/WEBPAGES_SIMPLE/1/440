@@ -1,0 +1,24 @@
+ Amortizing the <body>
+
+ 
+   
+               
+          First   
+          Previous   
+          Next   
+          Last   
+            Index   
+          Text   
+          Slide 8 of 10 
+ 
+Costs of ADL Interpreters
+
+    <h2>Reduce the cost of developing interpreters by
+</h2>
+  Writing an �interpreter generator� whose input is the specification of the ADL
+  Writing an ADL spec for each target ADL
+      <h2>With two interpreters running in the same environment:
+</h2>
+  You can make changes to the architecture in the ADL of choice
+  You can use several ADLs to work on the same architecture       --&gt;
+ </body> 

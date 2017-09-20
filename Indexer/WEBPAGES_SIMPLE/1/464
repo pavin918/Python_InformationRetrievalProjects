@@ -1,0 +1,376 @@
+ 
+  Class Network
+<body>
+  
+<h1>
+  Class Network
+</h1>
+ 
+java.lang.Object
+   |
+   +----Network
+ 
+    public class <b>Network</b>
+    extends Object
+    implements EventDestination
+    
+This class represents a generic multiprocessor network
+ 
+    
+<h2>
+   </h2>
+     <b>ASYNCHRONOUS</b> 
+     If the network is ASYNCHRONOUS
+       <b>SYNCHRONOUS</b> 
+     If the network is SYNCHRONOUS
+  <h2>
+   </h2>
+     <b>Network</b> ()
+     Creates a new network, does not create any processors or connections, use other method for this
+
+       <b>Network</b> (TheSimulator, FileInputStream)
+     Creates a new network with the specified characteristics
+  
+  <h2>
+   </h2>
+     <b>addLink</b> (int, int, int)
+     Add a link between two processors usinf processor id's
+  
+       <b>addLink</b> (String, String, int)
+     Add a link between two processors using processor names
+  
+       <b>addProcessor</b> (int, int, int)
+     Add a processor to the network
+ 
+       <b>addProcessor</b> (int, int, int, float, float, float)
+     
+       <b>addProcessor</b> (Processor, Processor[])
+     Add a processor to the network
+  
+       <b>addProcessor</b> (String, int, int)
+     Add a processor to the network, timeslicelength default to 10
+ 
+       <b>addProcessor</b> (String, int, int, int)
+     Add a processor to the network
+ 
+       <b>allIdleProcessors</b> ()
+       
+       <b>allProcessors</b> ()
+     
+       <b>dispatchEvent</b> (SimEvent)
+      If this network is ASYNCHRONOUS this method simply passes the event on to the simulator
+  if the network is SYNCHRONOUS it makes sure all the events arrive to the simulator at the same time
+  
+        <b>getAverageTimeslice</b> ()
+     
+       <b>getNeighbours</b> (int)
+     return the neighbours of the processor
+  
+       <b>getProcessor</b> (int)
+     get the processor with the corresponding ID
+ 
+       <b>getRandomProcessor</b> ()
+     
+       <b>getType</b> ()
+     Get the network type
+  
+       <b>handleEvent</b> (SimEvent)
+      Receives events from the simulator, implements the interface EventDestination
+  
+        <b>nrProcessors</b> ()
+     return the number of processors in this network
+  
+       <b>readConfigStream</b> (FileInputStream)
+     Creates a network according to the supplied instream
+ for a specification of the file format see configfile.spec
+
+       <b>removeEvent</b> (SimEvent)
+     Removes an already existing event from the global simulation queue
+  
+       <b>setType</b> (int)
+     Set the network type
+  
+       <b>setType</b> (int, int)
+     Set the network type
+  
+    
+<h2>
+   </h2>
+   
+<b>SYNCHRONOUS</b>
+ 
+ public static final int SYNCHRONOUS
+ 
+   If the network is SYNCHRONOUS 
+      
+<b>ASYNCHRONOUS</b>
+ 
+ public static final int ASYNCHRONOUS
+ 
+   If the network is ASYNCHRONOUS 
+     
+<h2>
+   </h2>
+  
+   
+<b>Network</b>
+ 
+ public Network()
+ 
+   Creates a new network, does not create any processors or connections, use other method for this
+ 
+      
+<b>Network</b>
+ 
+ public Network( TheSimulator  sim,
+                FileInputStream is)
+ 
+   Creates a new network with the specified characteristics
+ 
+       <b>Parameters:</b>
+       sim - An instance of TheSimulator
+      is - An input stream specifying how the networks topology looks
+            (see detailed description in  here )
+      
+    
+<h2>
+   </h2>
+   
+ <b>dispatchEvent</b> 
+ 
+ public void dispatchEvent( SimEvent  se)
+ 
+    If this network is ASYNCHRONOUS this method simply passes the event on to the simulator
+  if the network is SYNCHRONOUS it makes sure all the events arrive to the simulator at the same time
+  
+       <b>Parameters:</b>
+       se - the event to be dispatched
+     
+     
+ <b>addProcessor</b> 
+ 
+ public int addProcessor(String name,
+                         int speed,
+                         int bufferSize,
+                         int tslc)
+ 
+   Add a processor to the network
+ 
+       <b>Parameters:</b>
+       name - The name used for this processor when using the addLink method
+      speed - The processor speed
+      bufferSize - The size of the processors communications buffer
+      tslc - the length of this processors timeslice
+          <b>Returns:</b>
+       the id of the new processor
+     
+     
+ <b>addProcessor</b> 
+ 
+ public int addProcessor(int speed,
+                         int bufferSize,
+                         int tslc,
+                         float L,
+                         float o,
+                         float g)
+ 
+   
+ <b>addProcessor</b> 
+ 
+ public int addProcessor(int speed,
+                         int bufferSize,
+                         int tslc)
+ 
+   Add a processor to the network
+ 
+       <b>Parameters:</b>
+       speed - The processor speed
+      bufferSize - The size of the processors communications buffer
+      tslc - the length of this processors timeslice
+         <b>Returns:</b>
+       the id of the new processor
+     
+     
+ <b>getProcessor</b> 
+ 
+ public  Processor  getProcessor(int peId)
+ 
+   get the processor with the corresponding ID
+ 
+       <b>Parameters:</b>
+       peId - the processor ID
+     
+     
+ <b>addProcessor</b> 
+ 
+ public int addProcessor(String name,
+                         int speed,
+                         int bufferSize)
+ 
+   Add a processor to the network, timeslicelength default to 10
+ 
+       <b>Parameters:</b>
+       name - The name used for this processor when using the addLink method
+      speed - The processor speed
+      bufferSize - The size of the processors communications buffer
+         <b>Returns:</b>
+       the id of the new processor
+     
+     
+ <b>addLink</b> 
+ 
+ public void addLink(String proc1,
+                     String proc2,
+                     int speed)
+ 
+   Add a link between two processors using processor names
+ 
+       <b>Parameters:</b>
+       proc1 - The first processor
+      proc2 - The second processor
+        <b>See Also:</b>
+        addProcessor 
+     
+     
+ <b>addLink</b> 
+ 
+ public void addLink(int proc1,
+                     int proc2,
+                     int speed)
+ 
+   Add a link between two processors usinf processor id's
+ 
+       <b>Parameters:</b>
+       proc1 - The first processors id
+      proc2 - The second processorid id
+        <b>See Also:</b>
+        addProcessor 
+     
+     
+ <b>addProcessor</b> 
+ 
+ public void addProcessor( Processor  p,
+                           Processor  ns[])
+ 
+   Add a processor to the network
+ 
+       <b>Parameters:</b>
+       p - the processor to add
+      ns, - p:s neighbours
+      
+     
+ <b>readConfigStream</b> 
+ 
+ public void readConfigStream(FileInputStream fs)
+ 
+   Creates a network according to the supplied instream
+ for a specification of the file format see configfile.spec
+ 
+      
+ <b>getType</b> 
+ 
+ public int getType()
+ 
+   Get the network type
+ 
+       <b>Returns:</b>
+       the network type
+       <b>See Also:</b>
+        Network 
+     
+     
+ <b>setType</b> 
+ 
+ public void setType(int s)
+ 
+   Set the network type
+ 
+       <b>Parameters:</b>
+       s - The type of the Network
+     
+     
+ <b>setType</b> 
+ 
+ public void setType(int s,
+                     int timeSliceLength)
+ 
+   Set the network type
+ 
+       <b>Parameters:</b>
+       s - The type of the Network
+      timeSliceLength - the length of the time slice. This set a global timeslice for all processors
+      
+     
+ <b>removeEvent</b> 
+ 
+ public void removeEvent( SimEvent  e)
+ 
+   Removes an already existing event from the global simulation queue
+ 
+       <b>Parameters:</b>
+       e - The event to remove from the simulators queue
+     
+     
+ <b>handleEvent</b> 
+ 
+ public void handleEvent( SimEvent  e)
+ 
+    Receives events from the simulator, implements the interface EventDestination
+  
+       <b>Parameters:</b>
+       e - the event
+     
+     
+ <b>getAverageTimeslice</b> 
+ 
+ public int getAverageTimeslice()
+ 
+     <b>Returns:</b>
+       the average timeslice for all this networks processors
+     
+    
+ <b>getRandomProcessor</b> 
+ 
+ public int getRandomProcessor()
+ 
+     <b>Returns:</b>
+       a processorID selected at uniform random from this netwoek
+     
+    
+ <b>nrProcessors</b> 
+ 
+ public int nrProcessors()
+ 
+   return the number of processors in this network
+ 
+       <b>Returns:</b>
+       the number of processors
+     
+     
+ <b>getNeighbours</b> 
+ 
+ public int[] getNeighbours(int PeId)
+ 
+   return the neighbours of the processor
+ 
+       <b>Returns:</b>
+       An array with the id of the neighbours
+     
+     
+ <b>allIdleProcessors</b> 
+ 
+ public int[] allIdleProcessors()
+ 
+     <b>Returns:</b>
+       An array with id:s for the processors that are currently idle
+     
+    
+ <b>allProcessors</b> 
+ 
+ public int[] allProcessors()
+ 
+     <b>Returns:</b>
+       An array with all processor id's
+  This method relies on this class representation of processors.
+     
+ </body> 

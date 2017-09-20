@@ -1,0 +1,338 @@
+ 
+PVNode
+<body>
+
+
+
+  
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+  
+    
+  SUMMARY: NESTED |  FIELD  |  CONSTR  |  METHOD   
+  
+DETAIL:  FIELD  |  CONSTR  |  METHOD   
+    
+
+
+ <h2>
+ 
+Raccoon.GUI 
+ 
+Class PVNode</h2>
+ 
+java.lang.Object
+   com.touchgraph.graphlayout.Node
+       com.touchgraph.linkbrowser.LBNode
+           <b>Raccoon.GUI.PVNode</b>
+ 
+  <b>All Implemented Interfaces:</b>   java.io.Serializable 
+    public class <b>PVNode</b> extends com.touchgraph.linkbrowser.LBNode implements java.io.Serializable     
+PVNode: class describing a node displayed in PeerViewer.
+  
+
+  
+   <b>Author:</b> 
+   Alexander Shapiro, Qi Zhong 
+ <b>See Also:</b>   Serialized Form     
+
+
+
+
+
+  
+     
+<b>Field Summary</b>  
+    
+ static int   
+  <b> DEFAULT_PORT </b> 
+
+ 
+            
+  
+   
+   <b>Fields inherited from class com.touchgraph.linkbrowser.LBNode</b> 
+    hint, HINT_BACK_COLOR, HINT_FONT, HINT_TEXT_COLOR, hintHeight, hintIsHTML, hintWidth, MINIMUM_HINT_HEIGHT, url, urlIsLocal, urlIsXML  
+  
+   
+   <b>Fields inherited from class com.touchgraph.graphlayout.Node</b> 
+    AUTO_ID_STRING, BACK_DEFAULT_COLOR, BACK_FIXED_COLOR, BACK_HILIGHT_COLOR, BACK_SELECT_COLOR, BORDER_DRAG_COLOR, BORDER_INACTIVE_COLOR, BORDER_MOUSE_OVER_COLOR, DEFAULT_TYPE, drawx, drawy, justMadeLocal, localEdgeCount, markedForRemoval, SMALL_TAG_FONT, TEXT_COLOR, TEXT_FONT, TYPE_ELLIPSE, TYPE_RECTANGLE, TYPE_ROUNDRECT, x, y  
+  
+ 
+
+
+  
+    
+<b>Constructor Summary</b>  
+    <b> PVNode </b>() 
+
+ 
+            
+    <b> PVNode </b>(java.lang.String l) 
+
+ 
+          Should not be called
+  Every node must have an ID 
+    <b> PVNode </b>(java.lang.String ip,
+       int portNum,
+       java.lang.String l) 
+
+ 
+            
+    <b> PVNode </b>(java.lang.String id,
+       java.lang.String l) 
+
+ 
+            
+    <b> PVNode </b>(java.lang.String id,
+       java.lang.String l,
+       java.lang.String u) 
+
+ 
+            
+    <b> PVNode </b>(java.lang.String id,
+       java.lang.String l,
+       java.lang.String u,
+        PVNodeInfo  pvNodeInfo) 
+
+ 
+            
+  
+ 
+
+
+  
+    
+<b>Method Summary</b>  
+    
+  java.lang.String   
+  <b> getID </b>() 
+
+ 
+            
+    
+  java.lang.String   
+  <b> getInfo </b>() 
+
+ 
+            
+    
+  java.lang.String   
+  <b> getIP </b>() 
+
+ 
+            
+    
+  java.lang.String   
+  <b> getName </b>() 
+
+ 
+            
+    
+   PVNodeInfo    
+  <b> getNodeInfo </b>() 
+
+ 
+            
+    
+  int   
+  <b> getPort </b>() 
+
+ 
+            
+    
+  boolean   
+  <b> isExpanded </b>() 
+
+ 
+            
+    
+  void   
+  <b> setIsExpanded </b>(boolean expanded) 
+
+ 
+            
+    
+  void   
+  <b> setNodeInfo </b>( PVNodeInfo  newNodeInfo) 
+
+ 
+            
+  
+   
+   <b>Methods inherited from class com.touchgraph.linkbrowser.LBNode</b> 
+    getHeight, getHint, getHintHeight, getHintIsHTML, getHintWidth, getPaintBackColor, getPaintBorderColor, getPaintTextColor, getPaintUnselectedBackColor, getURL, getURLIsLocal, getURLIsXML, getWidth, paint, setHint, setHintHeight, setHintIsHTML, setHintWidth, setNodeHintBackColor, setNodeHintFont, setNodeHintTextColor, setURL, setURLIsLocal, setURLIsXML  
+  
+   
+   <b>Methods inherited from class com.touchgraph.graphlayout.Node</b> 
+    addEdge, containsPoint, containsPoint, edgeAt, edgeNum, getBackColor, getFixed, getFont, getLabel, getLocation, getTextColor, getType, intersects, isVisible, localEdgeNum, paintNodeBody, paintSmallTag, removeEdge, setBackColor, setFixed, setFont, setID, setLabel, setLocation, setNodeBackDefaultColor, setNodeBackFixedColor, setNodeBackHilightColor, setNodeBackSelectColor, setNodeBorderDragColor, setNodeBorderInactiveColor, setNodeBorderMouseOverColor, setNodeTextColor, setNodeTextFont, setNodeType, setTextColor, setType, setVisible  
+  
+   
+   <b>Methods inherited from class java.lang.Object</b> 
+    equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait  
+  
+ 
+ 
+
+
+
+  
+     
+<b>Field Detail</b>  
+    <h3>
+DEFAULT_PORT</h3>
+ 
+public static final int <b>DEFAULT_PORT</b> 
+   <b>See Also:</b>   Constant Field Values      
+    
+<b>Constructor Detail</b>  
+    <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>() 
+     <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>(java.lang.String l) 
+  Should not be called
+  Every node must have an ID
+ 
+      <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>(java.lang.String id,
+              java.lang.String l) 
+     <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>(java.lang.String ip,
+              int portNum,
+              java.lang.String l) 
+     <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>(java.lang.String id,
+              java.lang.String l,
+              java.lang.String u) 
+     <h3>
+PVNode</h3>
+ 
+public <b>PVNode</b>(java.lang.String id,
+              java.lang.String l,
+              java.lang.String u,
+               PVNodeInfo  pvNodeInfo) 
+    
+    
+<b>Method Detail</b>  
+    <h3>
+setNodeInfo</h3>
+ 
+public void <b>setNodeInfo</b>( PVNodeInfo  newNodeInfo) 
+     
+    
+    <h3>
+getNodeInfo</h3>
+ 
+public  PVNodeInfo  <b>getNodeInfo</b>() 
+     
+    
+    <h3>
+setIsExpanded</h3>
+ 
+public void <b>setIsExpanded</b>(boolean expanded) 
+     
+    
+    <h3>
+isExpanded</h3>
+ 
+public boolean <b>isExpanded</b>() 
+     
+    
+    <h3>
+getIP</h3>
+ 
+public java.lang.String <b>getIP</b>() 
+     
+    
+    <h3>
+getPort</h3>
+ 
+public int <b>getPort</b>() 
+     
+    
+    <h3>
+getInfo</h3>
+ 
+public java.lang.String <b>getInfo</b>() 
+     
+    
+    <h3>
+getID</h3>
+ 
+public java.lang.String <b>getID</b>() 
+     
+    
+    <h3>
+getName</h3>
+ 
+public java.lang.String <b>getName</b>() 
+     
+    
+    
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+  
+    
+  SUMMARY: NESTED |  FIELD  |  CONSTR  |  METHOD   
+  
+DETAIL:  FIELD  |  CONSTR  |  METHOD   
+    
+
+
+ </body> 

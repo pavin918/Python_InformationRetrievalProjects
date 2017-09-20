@@ -1,0 +1,241 @@
+   
+  Class c2.comp.StackArtist
+<body>
+ 
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+ <h1>
+  Class c2.comp.StackArtist
+</h1>
+ 
+ java.lang.Object 
+   |
+   +---- c2.framework.Brick 
+           |
+           +---- c2.framework.Component 
+                   |
+                   +---- c2.framework.ComponentThread 
+                           |
+                           +----c2.comp.StackArtist
+ 
+    public class <b>StackArtist</b>
+    extends  ComponentThread 
+   
+StackArtist class. 
+Implements a graphical visualization of a stack.  Maintains an abstract
+model of the entire contents of a stack, as well as buttons to push 
+elements onto the stack, pop them off the stack, and access the top 
+element.  A text field allows a user to specify the value to be pushed, 
+and a quit button to exit the application to which the Artist belongs.  
+The Artist issues stack manipulation requests to a stack ADT above it in
+a C2 architecture and notifications to components (if any) below
+it.  In turn, it receives notifications from the stack ADT and requests
+from a graphics server and acts accordingly.  
+  <h3>StackArtist's C2 Message Interface</h3>
+StackArtist's methods should not be invoked directly in a C2
+architecture.  Instead, the Artist's functionality is accessed via C2
+messages (requests and notifications). In response to those messages, 
+the Artist emits requests to a stack ADT above it and sends notifications
+of its internal state changes down. 
+  
+   <b>Incoming Notifications</b>
+       pushed                (Integer value);
+       popped                (Integer value);
+       top                   (Integer value);
+       state                 (Vector stack);
+       empty                 ();
+   <b>Outgoing Requests</b>
+       push                  (Integer value);
+       pop                   ();
+       top                   ()
+       get_state             ();
+   <b>Incoming Requests</b>
+       AcceptEvent           (String button, String parent_id);
+       AcceptEvent           (String text_field, String value,
+                              String parent_id);
+   <b>Outgoing Notifications</b>
+       ViewportCreated       (Integer x, Integer y,
+                              Integer width, Integer height,
+                              String title, String id,
+                              String foreground, String background);
+       ApplicationTerminated ();
+       PanelAdded            (Integer x, Integer y,
+                              Integer width, Integer height,
+                              String foreground, String background,
+                              String id, String parent_id);
+       PanelCleared          (String id);
+       ButtonAdded           (Integer x, Integer y,
+                              Integer width, Integer height,
+                              String foreground, String background,
+                              String label, String parent_id);
+       TextFieldAdded        (Integer x, Integer y,
+                              Integer width, Integer height,
+                              String foreground, String background,
+                              String label, String parent_id);
+       TextFieldSet          (String label, String value,
+                              String parent_id);
+       TextFieldCleared      (String label, String parent_id);
+       c2Gtext               (Integer x, Integer y,
+                              String value, String font,
+                              String color, String style,
+                              Integer size, String parent_id);
+ 
+   
+<h2>
+   </h2>
+     <b>panel</b> 
+     Panel in which the contents of the stack are to be displayed.
+       <b>pop_button</b> 
+     Button for popping elements off the stack.
+       <b>push_button</b> 
+     Button for pushing elements onto the stack.
+       <b>quit_button</b> 
+     Button for exiting the application.
+       <b>tf_value</b> 
+     Integer value of the text field.
+       <b>top_button</b> 
+     Button for returning the top stack element.
+       <b>txt_field</b> 
+     Button for entering the value to be pushed onto the stack and viewing
+the top stack element.
+       <b>vport</b> 
+     Viewport in which the contents of the stack and widgets for its
+manipulation are to be displayed.
+  <h2>
+   </h2>
+     <b>StackArtist</b> ()
+     
+       <b>StackArtist</b> (String)
+     
+  <h2>
+   </h2>
+     <b>create</b> (String)
+     Creates and initializes an instance of the StackArtist.
+       <b>handle</b> (Notification)
+     Handles notifications from the stack ADT.
+       <b>handle</b> (Request)
+     Handles requests resulting from a user's manipulation of stack's
+depiction.
+       <b>start</b> ()
+     At startup, it creates an abstract viewport, panel, quit, push, pop, 
+and top buttons, and a text field, and emits notifications of these 
+changes to any listening components below.
+    
+<h2>
+   </h2>
+   
+<b>vport</b>
+ 
+  protected  String  vport
+ 
+   Viewport in which the contents of the stack and widgets for its
+manipulation are to be displayed.
+     
+<b>panel</b>
+ 
+  protected  String  panel
+ 
+   Panel in which the contents of the stack are to be displayed.
+     
+<b>push_button</b>
+ 
+  protected  String  push_button
+ 
+   Button for pushing elements onto the stack.
+     
+<b>pop_button</b>
+ 
+  protected  String  pop_button
+ 
+   Button for popping elements off the stack.
+     
+<b>top_button</b>
+ 
+  protected  String  top_button
+ 
+   Button for returning the top stack element.
+     
+<b>quit_button</b>
+ 
+  protected  String  quit_button
+ 
+   Button for exiting the application.
+     
+<b>txt_field</b>
+ 
+  protected  String  txt_field
+ 
+   Button for entering the value to be pushed onto the stack and viewing
+the top stack element.
+     
+<b>tf_value</b>
+ 
+  protected  Integer  tf_value
+ 
+   Integer value of the text field.
+    
+<h2>
+   </h2>
+  
+   
+<b>StackArtist</b>
+ 
+  public StackArtist()
+ 
+   
+<b>StackArtist</b>
+ 
+  public StackArtist( String  _name)
+ 
+  
+<h2>
+   </h2>
+   
+ <b>create</b> 
+ 
+  public void create( String  _name)
+ 
+   Creates and initializes an instance of the StackArtist.
+     <b>Parameters:</b>
+       _name - Name of the class.
+         
+ <b>start</b> 
+ 
+  public void start()
+ 
+   At startup, it creates an abstract viewport, panel, quit, push, pop, 
+and top buttons, and a text field, and emits notifications of these 
+changes to any listening components below.
+     <b>Overrides:</b>
+        start  in class  ComponentThread 
+         
+ <b>handle</b> 
+ 
+  public synchronized void handle( Request  r)
+ 
+   Handles requests resulting from a user's manipulation of stack's
+depiction.  Depending on the request, it either sends stack manipulation
+requests to the ADT, records the value of the text field, or sends a
+ ApplicationTerminated  notification to the graphics binding (when 
+the quit button is pressed).
+     <b>Parameters:</b>
+       r - Request to be handled.
+       <b>Overrides:</b>
+        handle  in class  Component 
+         
+ <b>handle</b> 
+ 
+  public synchronized void handle( Notification  n)
+ 
+   Handles notifications from the stack ADT.  If the ADT notifies that the
+stack has been pushed or popped, the entire stack state is requested
+and a notifications of that state sent down.  If the ADT sends a
+notification with the stack's top value, that value is recorded in the 
+Artist's abstract text field; the Artist sends a notification of that 
+state change down.
+     <b>Parameters:</b>
+       n - Notification to be handled.
+       <b>Overrides:</b>
+        handle  in class  Component 
+        
+ All Packages    Class Hierarchy    This Package    Previous    Next    Index  
+</body> 

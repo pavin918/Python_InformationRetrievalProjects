@@ -1,0 +1,20 @@
+ Deleting literals of an operationalization<body>
+
+ <h1>Deleting literals of an operationalization</h1> 
+     <h2>State Representation:  O(2|clause|)
+</h2>
+  Set of Positive Tuples 
+  Set of Negative Tuples
+  Body (Conjunction) Initialized to operationalization 
+       <h2>Operators: Delete a literal
+</h2>
+       <h2>Evaluation Function: Information Gain; Accuracy</h2>
+     
+3+0-     
+7+0-     
+ 
+     Previous slide   
+     Next slide   
+     Back to first slide   
+     View graphic version   
+  </body> 

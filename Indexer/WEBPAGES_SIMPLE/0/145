@@ -1,0 +1,171 @@
+ 
+Named (formula package)
+<body> 
+ 
+
+
+
+
+
+
+
+  
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ <h2>
+ 
+formulaVisited 
+ 
+Class Named</h2>
+ 
+java.lang.Object
+   <b>formulaVisited.Named</b>
+ 
+  <b>All Implemented Interfaces:</b>   java.lang.Comparable 
+   <b>Direct Known Subclasses:</b>    LogicalVariable  
+     public abstract class <b>Named</b>  extends java.lang.Object implements java.lang.Comparable     
+The superclass of all named objects in the package.
+  
+
+  
+   
+
+
+
+  
+     
+<b>Constructor Summary</b>  
+    <b> Named </b>(java.lang.String _name) 
+
+ 
+            
+  
+ 
+
+
+  
+    
+<b>Method Summary</b>  
+    
+  int   
+  <b> compareTo </b>(java.lang.Object _b) 
+
+ 
+          Compares two named objects for order, by name. 
+    
+  boolean   
+  <b> equals </b>(java.lang.Object _b) 
+
+ 
+          Compares two named objects for equality, by name. 
+  
+   
+   <b>Methods inherited from class java.lang.Object</b> 
+    clone, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait  
+  
+ 
+ 
+
+
+
+  
+     
+<b>Constructor Detail</b>  
+    <h3>
+Named</h3>
+ 
+public <b>Named</b>(java.lang.String _name) 
+    
+    
+<b>Method Detail</b>  
+    <h3>
+equals</h3>
+ 
+public boolean <b>equals</b>(java.lang.Object _b) 
+  Compares two named objects for equality, by name.
+ 
+    <b>Overrides:</b>   equals  in class  java.lang.Object    
+   <b>Parameters:</b>   _b  - The other object.
+  <b>Returns:</b>  true iff this objects's name is the same as the other's.
+  <b>Throws:</b>
+   java.lang.ClassCastException  - If the other object is not also a named object.   
+     <h3>
+compareTo</h3>
+ 
+public int <b>compareTo</b>(java.lang.Object _b) 
+  Compares two named objects for order, by name.
+ 
+    <b>Specified by:</b>   compareTo  in interface  java.lang.Comparable    
+   <b>Parameters:</b>   _b  - The other object.
+  <b>Returns:</b>  -1, 0, or 1 iff this object's name is 
+      less than, the same as, or greater than the other's.
+  <b>Throws:</b>
+   java.lang.ClassCastException  - If the other object is not also a named object.   
+     
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+  <b>NEXT CLASS</b>   
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ </body> 

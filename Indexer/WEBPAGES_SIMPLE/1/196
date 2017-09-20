@@ -1,0 +1,210 @@
+ 
+VisitorToString (formula package)
+<body> 
+ 
+
+
+
+
+
+
+
+  
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+ NEXT CLASS  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ <h2>
+ 
+formulaVisited 
+ 
+Class VisitorToString</h2>
+ 
+java.lang.Object
+   <b>formulaVisited.VisitorToString</b>
+ 
+  <b>All Implemented Interfaces:</b>    Visitor  
+     public class <b>VisitorToString</b>  extends java.lang.Object implements  Visitor      
+A visitor that produces a string representation for each formula.
+  
+
+  
+   
+
+
+
+  
+     
+<b>Constructor Summary</b>  
+    <b> VisitorToString </b>() 
+
+ 
+            
+  
+ 
+
+
+  
+    
+<b>Method Summary</b>  
+    
+  java.lang.Object   
+  <b> visit </b>( Conjunction  _f) 
+
+ 
+          Calculates the result for a Conjunction. 
+    
+  java.lang.Object   
+  <b> visit </b>( Disjunction  _f) 
+
+ 
+          Calculates the result for a Disjunction. 
+    
+  java.lang.Object   
+  <b> visit </b>( LogicalConstant  _f) 
+
+ 
+          Calculates the result for a LogicalConstant. 
+    
+  java.lang.Object   
+  <b> visit </b>( LogicalVariable  _f) 
+
+ 
+          Calculates the result for a LogicalVariable. 
+    
+  java.lang.Object   
+  <b> visit </b>( Negation  _f) 
+
+ 
+          Calculates the result for a Negation. 
+  
+   
+   <b>Methods inherited from class java.lang.Object</b> 
+    clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait  
+  
+ 
+ 
+
+
+
+  
+     
+<b>Constructor Detail</b>  
+    <h3>
+VisitorToString</h3>
+ 
+public <b>VisitorToString</b>() 
+    
+    
+<b>Method Detail</b>  
+    <h3>
+visit</h3>
+ 
+public java.lang.Object <b>visit</b>( Conjunction  _f) 
+  <b>Description copied from interface:   Visitor  </b> 
+ Calculates the result for a Conjunction.
+ 
+    <b>Specified by:</b>    visit   in interface   Visitor     
+    
+     <h3>
+visit</h3>
+ 
+public java.lang.Object <b>visit</b>( Disjunction  _f) 
+  <b>Description copied from interface:   Visitor  </b> 
+ Calculates the result for a Disjunction.
+ 
+    <b>Specified by:</b>    visit   in interface   Visitor     
+    
+     <h3>
+visit</h3>
+ 
+public java.lang.Object <b>visit</b>( LogicalConstant  _f) 
+  <b>Description copied from interface:   Visitor  </b> 
+ Calculates the result for a LogicalConstant.
+ 
+    <b>Specified by:</b>    visit   in interface   Visitor     
+    
+     <h3>
+visit</h3>
+ 
+public java.lang.Object <b>visit</b>( LogicalVariable  _f) 
+  <b>Description copied from interface:   Visitor  </b> 
+ Calculates the result for a LogicalVariable.
+ 
+    <b>Specified by:</b>    visit   in interface   Visitor     
+    
+     <h3>
+visit</h3>
+ 
+public java.lang.Object <b>visit</b>( Negation  _f) 
+  <b>Description copied from interface:   Visitor  </b> 
+ Calculates the result for a Negation.
+ 
+    <b>Specified by:</b>    visit   in interface   Visitor     
+    
+     
+  
+   
+  
+         <b>Overview</b>    
+         <b>Package</b>    
+      <b>Class</b>   
+         <b>Use</b>    
+         <b>Tree</b>    
+         <b>Deprecated</b>    
+         <b>Index</b>    
+         <b>Help</b>    
+     
+  
+ 
+ 
+    
+  <b>PREV CLASS</b>  
+ NEXT CLASS  
+  
+   <b>FRAMES</b>    
+  <b>NO FRAMES</b>    
+  
+   <b>All Classes</b> 
+ 
+
+
+  
+    
+  SUMMARY: NESTED | FIELD |  CONSTR  |  METHOD   
+  
+DETAIL: FIELD |  CONSTR  |  METHOD   
+    
+
+
+ </body> 

@@ -1,0 +1,51 @@
+ 4.138 OETheFunctionFormerlyKnownAsStripSalts<body>
+ 
+       
+     
+        
+ OEChem - API Manual
+ 
+Version 1.3.1      
+     
+   
+   
+   Previous:</b>  4.137 OESuppressHydrogens 
+ Up:</b>  4. OEChem Functions 
+ Next:</b>  4.139 OETranslate 
+   
+
+
+<h1> 
+4.138 OETheFunctionFormerlyKnownAsStripSalts 
+</h1>
+
+ 
+    
+bool OETheFunctionFormerlyKnownAsStripSalts(OEMolBase &amp;mol)
+    
+This function, named StripSalts during the development of OEChem,
+deletes all atoms that are not part of the largest connected component
+of a molecule.  If two or more components of a molecule are the size
+of the largest component, this function keeps the first one
+encountered.
+
+  
+
+  
+          
+     
+        
+ OEChem - API Manual
+ 
+Version 1.3.1      
+     
+   
+   
+   Previous:</b>  4.137 OESuppressHydrogens 
+ Up:</b>  4. OEChem Functions 
+ Next:</b>  4.139 OETranslate 
+  Documentation released on July 30, 2004. 
+ 
+
+
+</body> 

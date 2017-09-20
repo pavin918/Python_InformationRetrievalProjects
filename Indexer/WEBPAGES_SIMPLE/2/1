@@ -1,0 +1,66 @@
+ 
+  Class StartIOTaskEvent
+<body>
+  
+<h1>
+  Class StartIOTaskEvent
+</h1>
+ 
+java.lang.Object
+   |
+   +---- SimEvent 
+           |
+           +---- TaskEvent 
+                   |
+                   +---- InternalTaskEvent 
+                           |
+                           +----StartIOTaskEvent
+ 
+    public class <b>StartIOTaskEvent</b>
+    extends  InternalTaskEvent 
+   
+A start of I/O task event.
+ 
+    <b>See Also:</b>
+        Task 
+     
+<h2>
+   </h2>
+     <b>StartIOTaskEvent</b> (Task, float)
+      Constructs a start I/O task event.
+  <h2>
+   </h2>
+     <b>toString</b> ()
+      Returns a string representation of this object.
+    
+<h2>
+   </h2>
+  
+   
+<b>StartIOTaskEvent</b>
+ 
+ public StartIOTaskEvent( Task  task,
+                         float time)
+ 
+   Constructs a start I/O task event.
+ 
+       <b>Parameters:</b>
+       task - responsible task.
+      time - time stamp.
+      
+    
+<h2>
+   </h2>
+   
+ <b>toString</b> 
+ 
+ public String toString()
+ 
+   Returns a string representation of this object.
+ 
+       <b>Returns:</b>
+       a string representation of this object.
+       <b>Overrides:</b>
+        toString  in class  SimEvent 
+     
+  </body> 

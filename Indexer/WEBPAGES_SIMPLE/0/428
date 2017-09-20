@@ -1,0 +1,130 @@
+ 
+      Dr. Rina Dechter @ UCI
+    <body>
+
+
+  [an error occurred while processing this directive]
+
+
+
+
+   
+     
+   ICS-270A, Intorduction to Artificial Intelligence, Fall 2004 
+     
+   
+   main  |
+   announcements  |
+   home work  |
+   lecture notes  
+   
+
+     Project    
+   
+ <h3>Planning as search</h3>
+   Blai Bonet and Héctor Geffner,
+   
+      <b> "Planning as Heuristic Search" </b>,
+   
+  Artificial Intelligence, 2001. 
+
+   Blai Bonet and Héctor Geffner,
+     
+    <b> "Heuristic Search Planner 2.0" </b> . 
+
+
+
+   Jörg Hoffmann,
+   
+      <b> "A Heuristic for Domain Independent Planning and its
+      Use in an Enforced Hill-Climbing Algorithm" </b> ,
+      in Proceedings of the 12th International Symposium on
+      Methodologies for Intelligent Systems, Charlotte, North
+      Carolina, USA, October 2000. 
+ <h3>SAT-plan</h3>
+  Henry Kautz and Bart Selman,
+   
+      <b> "Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search" </b> ,
+      in proceedings of AAAI-96. 
+
+   Henry Kautz and Bart Selman,
+     
+      <b> "Unifying SAT-based and Graph-based Planning" </b> ,
+      in proceedings of IJCAI 1999. 
+
+   Avrim L. Blum and Merrick L. Furst,
+     
+      <b> "Fast Planning Through Planning Graph Analysis" </b> ,
+      Artificial Intelligence. 90. 1997. p281-300. 
+
+   Jussi Rintanen,
+     
+      <b> "A Planning Algorithm not based on Directional Search" </b> ,
+      Proceedings of the Sixth International Conference (KR '98), pages 617-624. 
+
+ <h3>Cplan</h3>
+
+  P. van Beek and Xinguang Chen,
+     
+      <b> "CPlan: A Constraint Programming Approach to Planning" </b> ,
+      In Proceedings of the Sixteenth National Conference on Artificial
+      Intelligence, pages 585-590, Orlando, Florida, 1999. 
+
+   Subbarao Kambhampati and Romeo Sanchez Nigenda,
+     
+      <b> "Distance-based Goal-ordering heuristics for Graphplan" </b> ,
+      In proceedings of AIPS-2000. 
+
+ <h3>Domain Specific</h3>
+
+  Fahiem Bacchus and Froduald Kabanza,
+     
+      <b> "Using Temporal Logics to Express Search Control Knowledge for Planning" </b> ,
+      Artificial Intelligence volume 16, pages 123-191, 2000. 
+
+ <h3>Probabilistic Planning</h3>
+
+  Stephen M. Majercik and Michael L. Littman,
+     
+      <b> "Using Caching To Solve Larger Probabilistic Planning Problems" </b> ,
+      in AAAI/IAAI 1998, pages 954-959. 
+
+   Stephen M. Majercik,
+          <b> "Planning Under Uncertainty Via Stochastic Satisfiability" </b>,
+      In Proceedings of the Sixteenth National Conference on Artificial Intelligence, page 950, 1999. 
+
+   Stephen M. Majercik and Michael L. Littman,
+     
+      <b> "MAXPLAN: A New Approach To Probabilistic Planning" </b> ,
+      In Proceedings of the Fourth International Conference on Artificial
+      Intelligence Planning Systems, pages 86-93, 1998. 
+ <h3>Other Links</h3>
+   
+    Jussi Rintanen's Publications  
+
+    
+    Fahiem Bacchus's Homepage  
+
+    
+    International Summer School on AI Planning  
+
+    
+    Blai Bonet's Homepage (HSP v2.0)  
+
+    
+    Joerg Hoffmann's FF Homepage  
+
+    
+    Durham Planning Group  
+
+     
+     
+ School of Information and Computer Science 
+ University of California, Irvine, CA 92697-3435 
+ Dr. Rina Dechter 
+
+ dechter at ics.uci.edu 
+
+  
+
+</body> 

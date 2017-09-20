@@ -1,0 +1,65 @@
+ Kernel::Value_at_d<body>
+
+
+
+
+ 
+ <strong>Navigation:</strong>
+ Up , 
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+  
+
+
+  
+
+      
+     
+     
+     
+   
+
+   
+         
+<h2> Kernel::Value_at_d </h2>
+
+
+A model for this must provide:
+ 
+
+    
+          Kernel ::FT
+         
+          
+         
+     fo (   Kernel :: Hyperplane_d  h,   Kernel :: Point_d  p)  
+
+         
+                
+    computes the value of  h  evaluated
+  at  p .  Precondition:   p  and  h  have the same dimension.
+            
+
+   <b>Next:</b>   Kernel::Vector_to_point_d   
+
+
+    
+ 
+ <strong>Navigation:</strong>
+
+   Table of Contents ,
+   Bibliography ,
+   Index ,
+   Title Page 
+
+
+
+  
+
+The  CGAL Project  .
+
+Tue, December 21, 2004 .
+  
+  </body> 
